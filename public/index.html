@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BarberKing | Barbería Clásica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#inicio" class="logo">Barber<span>King</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#sobre-nosotros">Nosotros</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="#reservar" class="btn-nav">Reservar</a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-sub">Barbería clásica desde 2010</p>
+      <h1>El corte perfecto<br /><span>te espera aquí</span></h1>
+      <p class="hero-desc">Experiencia, estilo y tradición en cada visita. Tu imagen, nuestra pasión.</p>
+      <div class="hero-buttons">
+        <a href="#reservar" class="btn btn-primary">Reservar cita</a>
+        <a href="#servicios" class="btn btn-outline">Ver servicios</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-number" data-target="2500">0</span><span>+</span>
+        <p>Clientes satisfechos</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="15">0</span><span>+</span>
+        <p>Años de experiencia</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="8">0</span>
+        <p>Barberos expertos</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="12">0</span><span>+</span>
+        <p>Premios recibidos</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Lo que ofrecemos</p>
+        <h2>Nuestros Servicios</h2>
+        <p class="section-desc">Cada servicio está pensado para realzar tu estilo con técnicas clásicas y modernas.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">✂️</div>
+          <h3>Corte Clásico</h3>
+          <p>Corte tradicional con tijeras y máquina, adaptado a tu tipo de rostro.</p>
+          <span class="service-price">$15</span>
+        </div>
+        <div class="service-card featured">
+          <div class="badge">Popular</div>
+          <div class="service-icon">🪒</div>
+          <h3>Corte + Barba</h3>
+          <p>Combo completo: corte de cabello y arreglo de barba con navaja.</p>
+          <span class="service-price">$25</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">👑</div>
+          <h3>Afeitado Premium</h3>
+          <p>Afeitado clásico con toalla caliente, navaja y aceites esenciales.</p>
+          <span class="service-price">$20</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💈</div>
+          <h3>Fade & Degradado</h3>
+          <p>Degradado preciso con acabado impecable para un look moderno.</p>
+          <span class="service-price">$18</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🧴</div>
+          <h3>Tratamiento Capilar</h3>
+          <p>Hidratación y nutrición profunda para tu cabello y cuero cabelludo.</p>
+          <span class="service-price">$30</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">⭐</div>
+          <h3>Pack VIP</h3>
+          <p>Corte, barba, tratamiento y masaje de cuero cabelludo. La experiencia completa.</p>
+          <span class="service-price">$50</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE NOSOTROS -->
+  <section class="section about-section" id="sobre-nosotros">
+    <div class="container about-grid">
+      <div class="about-image">
+        <div class="about-img-placeholder">
+          <div class="barber-pole"></div>
+        </div>
+        <div class="about-badge">
+          <strong>+15</strong>
+          <span>Años de experiencia</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="section-label">Sobre nosotros</p>
+        <h2>Una barbería con alma clásica</h2>
+        <p>En <strong>BarberKing</strong> fusionamos la tradición de la barbería clásica con las tendencias actuales. Cada cliente que entra por nuestra puerta recibe atención personalizada y un servicio de primera.</p>
+        <p>Nuestro equipo de barberos está en constante formación para ofrecerte siempre lo mejor, usando productos de alta calidad y técnicas depuradas con años de práctica.</p>
+        <ul class="about-features">
+          <li>✓ Productos naturales y de alta gama</li>
+          <li>✓ Ambiente cómodo y relajado</li>
+          <li>✓ Barberos certificados</li>
+          <li>✓ Sin cita y con reserva online</li>
+        </ul>
+        <a href="#reservar" class="btn btn-primary">Conoce al equipo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Nuestro trabajo</p>
+        <h2>Galería de Estilos</h2>
+        <p class="section-desc">Una muestra de los cortes y estilos que realizamos cada día.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" style="--clr: #c9a96e">
+          <div class="gallery-placeholder">
+            <span>Fade Moderno</span>
+          </div>
+        </div>
+        <div class="gallery-item tall" style="--clr: #8b6914">
+          <div class="gallery-placeholder">
+            <span>Barba Perfecta</span>
+          </div>
+        </div>
+        <div class="gallery-item" style="--clr: #a0522d">
+          <div class="gallery-placeholder">
+            <span>Corte Clásico</span>
+          </div>
+        </div>
+        <div class="gallery-item wide" style="--clr: #556b2f">
+          <div class="gallery-placeholder">
+            <span>Undercut</span>
+          </div>
+        </div>
+        <div class="gallery-item" style="--clr: #4a4a6a">
+          <div class="gallery-placeholder">
+            <span>Skin Fade</span>
+          </div>
+        </div>
+        <div class="gallery-item" style="--clr: #7b3f00">
+          <div class="gallery-placeholder">
+            <span>Afeitado VIP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Reseñas</p>
+        <h2>Lo que dicen nuestros clientes</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"El mejor corte que he tenido en años. El ambiente es increíble y el equipo muy profesional."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">CM</div>
+            <div>
+              <strong>Carlos M.</strong>
+              <span>Cliente frecuente</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"El pack VIP es una experiencia única. Salí sintiéndome completamente renovado. 100% recomendado."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JR</div>
+            <div>
+              <strong>Jorge R.</strong>
+              <span>Cliente desde 2018</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Atención impecable, buenos precios y siempre puntuales. Mi barbería de cabecera sin duda."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AL</div>
+            <div>
+              <strong>Andrés L.</strong>
+              <span>Cliente frecuente</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVAR -->
+  <section class="section booking-section" id="reservar">
+    <div class="container booking-grid">
+      <div class="booking-info">
+        <p class="section-label">Reservas</p>
+        <h2>Reserva tu cita</h2>
+        <p>Elige el día y servicio que prefieras. Te confirmamos en menos de 24 horas.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span>Calle Principal 123, Ciudad</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <span>+1 (555) 000-0000</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🕐</span>
+            <span>Lun–Sab: 9:00 AM – 8:00 PM</span>
+          </div>
+        </div>
+      </div>
+      <form class="booking-form" id="booking-form" novalidate>
+        <div class="form-group">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="+1 (555) 000-0000" required />
+        </div>
+        <div class="form-group">
+          <label for="servicio">Servicio</label>
+          <select id="servicio" name="servicio" required>
+            <option value="">Selecciona un servicio</option>
+            <option value="corte">Corte Clásico – $15</option>
+            <option value="corte-barba">Corte + Barba – $25</option>
+            <option value="afeitado">Afeitado Premium – $20</option>
+            <option value="fade">Fade & Degradado – $18</option>
+            <option value="tratamiento">Tratamiento Capilar – $30</option>
+            <option value="vip">Pack VIP – $50</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" required />
+          </div>
+          <div class="form-group">
+            <label for="hora">Hora</label>
+            <select id="hora" name="hora" required>
+              <option value="">Hora</option>
+              <option value="09:00">09:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="12:00">12:00</option>
+              <option value="14:00">14:00</option>
+              <option value="15:00">15:00</option>
+              <option value="16:00">16:00</option>
+              <option value="17:00">17:00</option>
+              <option value="18:00">18:00</option>
+              <option value="19:00">19:00</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Confirmar reserva</button>
+        <div class="form-success" id="form-success">
+          ✓ ¡Reserva recibida! Te contactaremos pronto.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contacto">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="logo">Barber<span>King</span></a>
+        <p>La barbería donde el estilo se convierte en arte. Visítanos y descúbrelo por ti mismo.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Facebook">fb</a>
+          <a href="#" aria-label="TikTok">tt</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#sobre-nosotros">Nosotros</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#reservar">Reservar</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#reservar">Corte Clásico</a></li>
+          <li><a href="#reservar">Corte + Barba</a></li>
+          <li><a href="#reservar">Afeitado Premium</a></li>
+          <li><a href="#reservar">Pack VIP</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contacto</h4>
+        <p>📍 Calle Principal 123, Ciudad</p>
+        <p>📞 +1 (555) 000-0000</p>
+        <p>✉️ info@barberking.com</p>
+        <p>🕐 Lun–Sab: 9:00 – 20:00</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 BarberKing. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
